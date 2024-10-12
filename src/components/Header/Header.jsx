@@ -24,20 +24,38 @@ const Header = () => {
       whileInView="show"
       className={`bg-primary paddings ${css.wrapper}`}
       viewport={{ once: true, amount: 0.25 }}
-      style={{boxShadow: headerShadow}}
+      style={{ boxShadow: headerShadow }}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Paul Kaiba</div>
+        <div className={css.name}>
+          <a href="/#">
+            <img
+              src="/logo.png"
+              alt="Logo"
+              style={{ height: "50px", width: "auto", display: "block" }}
+            />
+          </a>
+        </div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li><a href="#experties">Services</a></li>
-          <li><a href="#work">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#people">Testimonials</a></li>
+          <li>
+            <a href="#experties">Services</a>
+          </li>
+          <li>
+            <a href="#work">Experience</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#people">Testimonials</a>
+          </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+254792799825</p>
             <BiPhoneCall size={"40px"} />

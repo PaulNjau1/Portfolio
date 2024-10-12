@@ -57,22 +57,22 @@ export const education = [
  
 export const workExp = [
   {
-    place: "Freelancer, Nairobi",
-    tenure: "Jan 2023 - Present",
+    place: "Komaza, Nairobi",
+    tenure: "August 2021 - October 2023",
     role: "Fullstack Software Engineer",
     detail:
-      "I develop responsive and interactive web apps for clients",
+      "I developed responsive and interactive web apps to streamline forestry operations",
   },
   {
     place: "Atext Digital, Remote",
-    tenure: "Feb 2022 - Dec 2022",
+    tenure: "July 2019 - July 2021",
     role: "Frontend Software Engineer",
     detail:
       "I developed SEO ready websites",
   },
   {
     place: "Bradetech, Sigona",
-    tenure: "Feb 2021 - Jan 2022",
+    tenure: "Feb 2019 - June 2019",
     role: "Junior Software Engineer",
     detail:
       "Worked in a team to develop a robust learning management system",
